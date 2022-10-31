@@ -1,4 +1,4 @@
-# Portfolio_Project
+# Portfolio
 A portfolio of my work to showcase my skills and talents to potential employers.
 
 # Advanced CSS Challenge: Professional Portfolio
@@ -54,7 +54,7 @@ THEN I am presented with a responsive layout that adapts to my viewport
 ## How to Submit the Challenge
 You are required to submit BOTH of the following for review:
 
-- The URL of the deployed application.
+- The URL of the deployed application:
   https://carolinarais.github.io/Portfolio_Project/
 
 - The URL of the GitHub repository that contains your code. Give the repository a unique name and include a README file that describes the project.
