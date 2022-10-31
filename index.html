@@ -1,92 +1,101 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Media Query for Screen</title>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" type="text/css" href="./assets/css/style.css" />
-  </head>
-  <body>
-    <!-- Header -->
-    <header>
-      <h1>Carolina Ramirez Islas</h1>
-      <p>will change colors when the screen size hits 992px or smaller.</p>
-    </header>
 
-    <!-- Navbar, I want all headers to link (and be underlined) to their corresponding section so that the page scrolls to it. -->
+<head>
+  <title>Carolina Ramirez Islas Portfolio</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" type="text/css" href="./assets/css/style.css" />
+</head>
+
+<body>
+  <!-- Header -->
+  <header>
+    <h1>Carolina Ramirez Islas</h1>
+    <!-- Navbar, I want all headers to link (and change appearence when hover) to their corresponding section so that the page scrolls to it. -->
     <nav>
-      <h4>About me
-        Work        
-        Contact Me          
-        Resume</h4>
+      <!-- These need to link to the corresponding sections -->
+      <a href="#about">About Me</a>
+      <a href="#work">Work</a>
+      <a href="#contact">Contact Me</a>
     </nav>
+  </header>
 
-    <!-- Body -->
-    <main>
-      <aside>
-        <h2>This is a sidebar.</h2>
-        <div class="sample-img">Image</div>
-        <p>When the screen size hits 576px or smaller...</p>
-      </aside>
+  <!-- Main -->
+  <main>
+    <section id="about">
+      
+      <!--Add self portrait here-->
+      <div class="sample-img"> 
+        <h3>About Me</h3>
+        <!-- Add the accesible alt text?-->
+        <img src="./assets/Images/Self Portrait.png" class="Selfie">
+      </div> 
+      <div>
+        <p>Carolina was born in Mexico City Mexico and raised in Wilsonville, Oregon. She went to Oregon State University
+        to obtain her bachelor’s degree in chemical engineering and became a process engineer and teacher after her
+        graduation. The fast-pace innovation and creativity in tech, as well as her desire to explore more topics in the
+        STEM field inspired Carolina to continue her education as a full-stack web developer. Carolina has dived into
+        impactful projects that showcase her technical abilities but she also understands the importance of using her
+        diverse background to create a unique product. Carolina is a patient learner, artist, author, teacher, engineer,
+        and potentially your next collaborator. </p>
+      </div>
+  
+    </section>
 
-      <section>
-        <!-- About Me section -->
-        <h2>About Me</h2>
-        <div class="sample-img">Image</div>
-        <p>..all of the image placeholders will change colors!</p>
-        <br />
-        <h2>But the real problem is...</h2>
-        <div class="sample-img">Image</div>
-        <p>
-          What are we going to do about the sidebar and body columns becoming
-          squished on a smaller screen?
-        </p>
+    <!-- Work section, must contain 5 placeholder projects with corresponding pictures in each box being the background-->
+    <section class="title" id="work header">
+      <h3>Work</h3>
+    </section>
 
-        <!-- Work section, must contain 5 placeholder projects with corresponding pictures in each box being the background-->
-        <h2>Work</h2>
-        <div class="sample-img">Image</div>
-        <!-- <p>..all of the image placeholders will change colors!</p> -->
-        <br />
-        <h2> Surf Report </h2>
-        <div class="sample-img">Image</div>
-        <p>
-          MERN Stack
-        </p>
+    <section class="card' id="work">
+      <div class="work">
+        <a href="#" class="project">
+          <div>
+            <h3>Surf Report</h3>
+            <img src="./assets/Images/Surf Report.png" class="SurfPic">
+          </div>
+        </a>
+        <a href="#" class="project">
+          <div>
+            <h3>LED Wall</h3>
+            <img src="./assets/Images/LED Wall.png" class="LED">
+          </div>
+        </a>
+        <a href="#" class="project">
+          <div>
+            <h3>Calculator</h3>
+            <img src="./assets/Images/Calculator.png" class="Calculator">
+          </div>
+        </a>
+        <a href="#" class="project">
+          <div>
+            <h3>Pastel Puzzles</h3>
+            <img src="./assets/Images/Pastel Puzzles.png" class="Puzzles">
+          </div>
+        </a>
+        <a href="#" class="project">
+          <div>
+            <h3>Run Buddy</h3>
+            <img src="./assets/Images/Run Buddy.png" class="Run">
+          </div>
+        </a>
+      </div>
+    </section>
+    
+  </main>
 
-        <h3> LED Wall </h3>
-        <div class="sample-img">Image</div>
-        <p>
-          Node/loT
-        </p>
+  <!-- Footer -->
+  <footer id="contact">
+    <!-- Contact Me section, I want all of my info to be underlined and horizontally aligned -->
+    <h2>Contact Me</h2>
+    <!-- Navbar, I want all headers to link (and be underlined) to their corresponding website or pdfs -->
+    <nav>
+      <a href="#">503.421.6105</a>
+      <a href="#">GitHub</a>
+      <a href="#">LinkedIn</a>
+    </nav>
+  </footer>
+</body>
 
-        <h3> Calculator </h3>
-        <div class="sample-img">Image</div>
-        <p>
-          React/JavaScript/CSS
-        </p>
-
-        <h3> Pastel Puzzels </h3>
-        <div class="sample-img">Image</div>
-        <p>
-          MERN Stack
-        </p>
-
-        <h3> Run Buddy </h3>
-        <div class="sample-img">Image</div>
-        <p>
-          HTML/CSS
-        </p>
-       
-      </section>
-    </main>
-
-    <!-- Footer -->
-    <footer>
-        <!-- Contact Me section, I want all of my info to be underlined and horizontally aligned -->
-        <h2>Contact Me</h2>
-        <h4>503.421.6105</h4>
-        <h4>GitHub</h4>
-        <h4>LinkedIn</h4>
-    </footer>
-  </body>
 </html>

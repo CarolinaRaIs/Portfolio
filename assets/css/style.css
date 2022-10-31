@@ -1,0 +1,145 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size: 130%;
+  font-family: Arial, Helvetica, sans-serif
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 70px;
+  align-items: center;
+  background-color: rgb(4, 80, 85) ;
+}
+
+header h1{
+  font-size: 230%;
+  color: rgb(214, 223, 223);
+}
+
+header nav{
+  background-color:  rgb(4, 80, 85) ;
+}
+
+header nav a {
+  color: rgb(214, 223, 223) ;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 110%;
+  padding: 15px 20px;
+  text-decoration: none;
+  text-align: center;
+}
+
+/* Want to make sure each hyperlink changes appearance to show that its live.*/
+header nav a:hover {
+  text-decoration: underline;
+  font-size: 122%;
+}
+
+/* Want hyperlinks to scroll smoothly to the designated sections*/
+a {
+  scroll-behavior: smooth;
+}
+
+main {
+  padding: 33px 70px;
+}
+
+.sample-img h3 {
+  font-size: 137%;
+  font-style: italic;
+  padding-top: 25px;
+  padding-bottom: 15px;
+}
+
+.Selfie {
+  max-width: 400px;
+  max-height:auto;
+  padding-bottom: 20px;
+  -webkit-transition: all 0.8s ease;
+  -moz-transition: all 0.8s ease;
+  transition: all 0.8s ease;
+}
+
+/* The app pictures should be smaller than the main portrait picture*/
+.SurfPic, .LED, .Calculator, .Puzzles, .Run  {
+  max-width: 250px;
+  max-height:auto;
+  padding-bottom: 20px;
+  -webkit-transition: all 0.8s ease;
+  -moz-transition: all 0.8s ease;
+  transition: all 0.8s ease;
+}
+
+/*The pictures for each designated app should get bigger as you hover over it*/
+.SurfPic:hover {
+  max-width: 300px;
+  max-height:auto;
+}
+
+.LED:hover {
+  max-width: 300px;
+  max-height:auto;
+}
+
+.Calculator:hover {
+  max-width: 300px;
+  max-height:auto;
+}
+
+.Puzzles:hover {
+  max-width: 300px;
+  max-height:auto;
+}
+
+.Run:hover {
+  max-width: 300px;
+  max-height:auto;
+}
+
+.title {
+  font-size: 137%;
+  font-style: italic;
+  padding-top: 37px;
+  padding bottom: 33px;
+  text-decoration: underline;
+}
+
+.work h3 {
+  padding: 10px 0px;
+  font-size: 100%;
+}
+
+.work a:hover {
+  font-size: 150%;
+}
+
+footer {
+  background-color: rgb(4, 80, 85);
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 70px;
+  align-items: center;
+}
+
+footer h2{
+  font-size: 150%;
+  color: rgb(214, 223, 223);
+}
+
+footer a {
+  color: rgb(214, 223, 223) ;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 100%;
+  padding: 15px 20px;
+  text-decoration: none;
+  text-align: center;
+}
+
+footer a:hover {
+  font-size: 122%;
+}
